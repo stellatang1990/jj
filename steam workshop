@@ -18,7 +18,7 @@ driver.get(url)
 totalNumPages = driver.find_elements(By.CLASS_NAME, "workshop_apps_paging_pagelink")[-1].text
 print(totalNumPages)
 all_urls = []
-total_pages = 254
+total_pages = 253
 # Iterate through all pages
 for _ in range(total_pages):
 
